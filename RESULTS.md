@@ -4,7 +4,7 @@
 - Step 0.1, the number of pizza names: 18
 - Step 0.3, status code of the request without a token: 401
 - Step 0.4, the name of your pizza: A Deep Americana
-- Step 0.12, results of the three runs without a session (optional):
+- Step 0.12, results of the three runs without a session (optional): Run 1: FAILED (assert 401 == 200), Run 2: PASSED, Run 3: FAILED (assert 401 == 200)
 - Step 0.16, blocks of "how many of the three tools are excluded":
 
 ## Defect report
