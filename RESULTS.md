@@ -15,7 +15,7 @@
 - Severity: Medium (High for API consumers expecting structured JSON errors, as an unhandled server error with an empty body causes JSON parsing crashes in client applications, though it only occurs when a user excludes every available tool).
 
 ## Part A
-- Step A4, status codes when the other user reads, changes and deletes:
+- Step A4, status codes when the other user reads, changes and deletes: GET (read) = 404 Not Found (`{"error": "not found"}`), PUT (change) = 400 Bad Request (`{"error": "rating ID <id> not found"}`), DELETE (delete) = 400 Bad Request (`{"error": "rating ID <id> not found"}`)
 
 ## Part B
 1.
