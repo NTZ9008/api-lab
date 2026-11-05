@@ -1,4 +1,4 @@
-# API Lab — ITDS362 (API Testing with pytest and requests)
+# API Lab — ITDS362 API Testing with pytest and requests
 
 This repository contains the automated API test suite for the QuickPizza API (`https://quickpizza.grafana.com`), using `pytest` and `requests`.
 
